@@ -8,12 +8,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<style>
-		body {background-color:#e6ffff;}
+		body {
+        	background-color:#e6ffff;
+            margin: 0px;
+            }
+        .topnav {
+    		background-color: #5c00e6;
+        	overflow: auto;
+    	}
+        .topnav a {
+  			float: left;
+  			display: block;
+  			color: #ffffff;
+  			text-align: center;
+  			padding: 20px 25px;
+  			text-decoration: none;
+  			font-size: 20px;
+  			border-bottom: 3px solid transparent;
+		}
+        .topnav a.active {
+  			border-bottom: 3px #000066;
+		}
 	</style>
+    
 </head>
 
 <body>
-	
+	<div class="topnav">
+  		<a href="#about" class="active">About</a>
+        <a href="#publications">Publications</a>
+  		<a href="#projects">Personal Projects</a>
+  		<a href="#cv">CV</a>
+        
+	</div>
+
 </body>
 
 </html>
