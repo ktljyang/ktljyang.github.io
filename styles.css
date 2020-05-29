@@ -1,0 +1,39 @@
+body {
+	background-color:#DFE2E5;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+.topnav {
+	background-color: #2A3756;
+	overflow: auto;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border-bottom: 3px solid transparent;
+}
+.topnav a:hover{
+	background-color: #F26444;
+	color: #FFFFFF;
+}
+.topnav a.active {
+	background-color: #F26444;
+	color: #FFFFFF;
+	border-bottom: 3px solid white;
+}
+
+.content{
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.img_container1 {
+	float: left;
+}
